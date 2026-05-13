@@ -1,3 +1,4 @@
+# F91 - f91 (https://br.spoj.com/problems/F91/)
 def f91(n):
 
     if n >= 101:
