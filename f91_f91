@@ -1,0 +1,17 @@
+def f91(n):
+
+    if n >= 101:
+        return n - 10
+
+    else:
+        return f91(f91(n + 11))
+
+
+while True:
+
+    n = int(input())
+
+    if n == 0:
+        break
+
+    print(f"f91({n}) = {f91(n)}")
